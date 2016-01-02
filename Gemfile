@@ -2,13 +2,13 @@ source "https://rubygems.org"
 
 ruby "2.3.0"
 
-gem "airbrake"
 gem "delayed_job_active_record"
 gem "newrelic_rpm", ">= 3.9.8"
 gem "pg"
 gem "puma"
 gem "rack-canonical-host"
 gem "rails", "~> 4.2.0"
+gem "rails-api"
 
 group :development do
   gem "spring"
