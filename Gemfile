@@ -7,8 +7,7 @@ gem "newrelic_rpm", ">= 3.9.8"
 gem "pg"
 gem "puma"
 gem "rack-canonical-host"
-gem "rails", "~> 4.2"
-gem "rails-api"
+gem "rails", "~> 5.0"
 
 group :development do
   gem "spring"
@@ -22,7 +21,7 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "pry-byebug"
   gem "pry-rails"
-  gem "rspec-rails", "~> 3.4.0"
+  gem "rspec-rails"
 end
 
 group :test do
