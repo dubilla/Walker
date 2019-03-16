@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.3.5"
+ruby "2.4.2"
 
 gem "delayed_job_active_record"
 gem "newrelic_rpm", ">= 3.9.8"
