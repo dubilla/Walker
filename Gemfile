@@ -7,7 +7,7 @@ gem "newrelic_rpm", ">= 3.9.8"
 gem "pg"
 gem "puma"
 gem "rack-canonical-host"
-gem "rails", "~> 4.2.0"
+gem "rails", "~> 4.2"
 gem "rails-api"
 
 group :development do
