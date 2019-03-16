@@ -8,6 +8,7 @@ gem "pg"
 gem "puma"
 gem "rack-canonical-host"
 gem "rails", "~> 5.0"
+gem "active_model_serializers"
 
 group :development do
   gem "spring"
