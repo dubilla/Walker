@@ -6,11 +6,12 @@ require "active_record/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
-require "sprockets/railtie"
+#require "sprockets/railtie"
 Bundler.require(*Rails.groups)
 module Walker
   class Application < Rails::Application
     config.i18n.enforce_available_locales = true
+    #config.assets.enabled = false
     config.quiet_assets = true
     config.generators do |generate|
       generate.helper false
