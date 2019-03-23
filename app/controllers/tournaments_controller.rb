@@ -14,6 +14,6 @@ class TournamentsController < ApplicationController
   end
 
   def tournament
-    @tournament ||= Tournament.find(params[:id])
+    @tournament ||= Tournament.includes(:competitors).order('competitors.score nulls last').find(params[:id])
   end
 end
